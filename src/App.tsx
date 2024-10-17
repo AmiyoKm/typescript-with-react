@@ -1,4 +1,5 @@
-import User from "./components/User"
+import Form from "./components/useForm/Form"
+
 
 
 function App() {
@@ -6,9 +7,7 @@ function App() {
 
   return (
     <>
-      <User >
-        <strong>Hello</strong>
-      </User>
+     <Form />
     </>
   )
 }
